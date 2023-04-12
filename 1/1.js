@@ -15,5 +15,5 @@
  alert(`Цельсий: ${cels}, Фаренгейт:  ${f(cels)}`);
  
  function f(c) {
-     return (9 / 5) * c + 32;
+     return Math.round((9 / 5) * c + 32);
  }
